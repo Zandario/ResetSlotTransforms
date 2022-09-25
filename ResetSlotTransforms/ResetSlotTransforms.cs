@@ -3,14 +3,14 @@ using FrooxEngine.UIX;
 using HarmonyLib;
 using NeosModLoader;
 
-namespace NeosModConfigurationExample
+namespace ResetSlotTransforms
 {
-    public class NeosModConfigurationExample : NeosMod
+    public class ResetSlotTransforms : NeosMod
     {
         public override string Name => "ComponentInspectorColor";
         public override string Author => "Zandario";
         public override string Version => "0.1.0";
-        public override string Link => "https://github.com/Zandario/NeosModConfigurationExample";
+        public override string Link => "https://github.com/Zandario/ResetSlotTransforms";
 
         public override void OnEngineInit()
         {
